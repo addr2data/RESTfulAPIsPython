@@ -7,8 +7,9 @@ Sessions
 Session_01
 ----------
 - Description
-    + Working with the *simplejson* module and json data in Python
-    + Working with the *requests* module
+    + Working with the **docopt** module in Python
+    + Working with the **simplejson** module and json data in Python
+    + Working with the **requests** module in Python
     + Review RESTful methods (GET, POST, PUT, PATCH, DELETE)
 
 - Dates
@@ -28,7 +29,10 @@ Prereqs
 - Send me your GitHub username.
 - Add your public SSH key to your GitHub account (generate new keys if necessary).
 - Create a new repo for this training.
-- Do a little research and decide where you want to write Python. I use Sublime Text (Python aware text editor). You could also use an IDE (PyCharm is very common). 
+- Do a little research and decide where you want to write Python. I use Sublime Text (Python aware text editor). You could also use an IDE (PyCharm is very common).
+- **Verify your access to the 'Working with RESTful APIs in Python' channel under the 'API Users' team**
+
+
 
 
 Prep for session 1
