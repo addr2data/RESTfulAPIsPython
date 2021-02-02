@@ -1,6 +1,11 @@
 Working with RESTful APIs in Python
 ===================================
-This repo is will be used for content for our **Working with RESTful APIs in Python** sessions.
+This repo will be used for content for our **Working with RESTful APIs in Python** sessions.
+
+
+What these sessions are
+-----------------------
+- An opportunity to learn how to interact with RESTful APIs in Python
 
 
 What these sessions are NOT
