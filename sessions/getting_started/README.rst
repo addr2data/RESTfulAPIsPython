@@ -35,11 +35,11 @@ Sync with this repo via ssh
 
 Execute script **sample.py**
 ----------------------------
-cd session/getting_started
-python sample.py
+- cd session/getting_started
+- python sample.py
 
 
 Execute script **ex_01.py**
 ----------------------------
-cd session/getting_started
-python ex_01.py
+- cd session/getting_started
+- python ex_01.py
