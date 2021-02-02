@@ -26,7 +26,7 @@ Session_01
     + Review RESTful methods (GET, POST, PUT, PATCH, DELETE)
 
 - Dates
-	+ Live session:     **Tue, Nov 16, 11a ET** *(It will be recorded)*
-	+ Support session:  **Wed, Nov 17, 8a ET**
-	+ Support session:  **Wed, Nov 17, 8p ET**
-	+ Support session:  **Thu, Nov 18, 11a ET**
+	+ Live session:     **Tue, Feb 16, 11a ET** *(It will be recorded)*
+	+ Support session:  **Wed, Feb 17, 8a ET**
+	+ Support session:  **Wed, Feb 17, 8p ET**
+	+ Support session:  **Thu, Feb 18, 11a ET**
