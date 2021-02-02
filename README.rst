@@ -2,13 +2,14 @@ Working with RESTful APIs in Python
 ===================================
 
 Sessions
---------
+========
 
-	Session_01
-	- Dates
-		~ Nov 16, 11a ET
-	- Description
-		~ tbd 
+Session_01
+----------
+- Dates
+	+ Nov 16, 11a ET
+- Description
+	+ tbd 
 
 
 
