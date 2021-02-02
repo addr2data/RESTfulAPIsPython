@@ -6,10 +6,16 @@ Sessions
 
 Session_01
 ----------
-- Dates
-	+ Nov 16, 11a ET
 - Description
-	+ tbd 
+    + Working with 'simplejson' and json data
+    + Working 'requests'
+
+- Dates
+	+ Live session (Tue, Nov 16, 11a ET) *It will be recorded*
+	+ Support session (Wed, Nov 17, 8a ET)
+	+ Support session (Wed, Nov 17, 8p ET)
+	+ Support session (Thu, Nov 18, 11a ET)
+
 
 
 
