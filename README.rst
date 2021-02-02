@@ -7,8 +7,9 @@ Sessions
 Session_01
 ----------
 - Description
-    + Working with 'simplejson' and json data
-    + Working 'requests'
+    + Working with the *simplejson* module and json data in Python
+    + Working with the *requests* module
+    + Review RESTful methods (GET, POST, PUT, PATCH, DELETE)
 
 - Dates
 	+ Live session:     **Tue, Nov 16, 11a ET** *(It will be recorded)*
@@ -17,11 +18,11 @@ Session_01
 	+ Support session:  **Thu, Nov 18, 11a ET**
 
 
-
-
-
 Getting Started
----------------
+===============
+
+Prereqs
+-------
 - Make sure you have Python (3.8.1 or later), Pip (latest) and Git installed.
 - If you don’t have a GitHub account, please create one.
 - Send me your GitHub username.
