@@ -11,10 +11,10 @@ Session_01
     + Working 'requests'
 
 - Dates
-	+ Live session:     Tue, Nov 16, 11a ET *(It will be recorded)*
-	+ Support session:  Wed, Nov 17, 8a ET
-	+ Support session:  Wed, Nov 17, 8p ET
-	+ Support session:  Thu, Nov 18, 11a ET
+	+ Live session:     **Tue, Nov 16, 11a ET** *(It will be recorded)*
+	+ Support session:  **Wed, Nov 17, 8a ET**
+	+ Support session:  **Wed, Nov 17, 8p ET**
+	+ Support session:  **Thu, Nov 18, 11a ET**
 
 
 
