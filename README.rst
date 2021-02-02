@@ -31,18 +31,14 @@ Prereqs
 - Create a new repo for this training.
 - Do a little research and decide where you want to write Python. I use Sublime Text (Python aware text editor). You could also use an IDE (PyCharm is very common).
 - **Verify your access to the 'Working with RESTful APIs in Python' channel under the 'API Users' team**
+- **Verify you can access the OneDrive share with the link I provided**
 
 
+Sync with this repo
+-------------------
+- mdkir RESTfulAPIsPython
+- cd RESTfulAPIsPython
+- git init
+- git remote add origin git@github.com:addr2data/RESTfulAPIsPython.git
+- git pull origin master
 
-
-Prep for session 1
-------------------
-
-
-
-
-
-
-Session 1
----------
-Live Session - Feb 16 (11a ET)
