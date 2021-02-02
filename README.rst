@@ -1,6 +1,17 @@
 Working with RESTful APIs in Python
 ===================================
 
+Sessions
+--------
+- Session_01
+	- Dates
+		~ Nov 16, 11a ET
+	- Description
+		~ tbd 
+
+
+
+
 Getting Started
 ---------------
 - Make sure you have Python (3.8.1 or later), Pip (latest) and Git installed.
@@ -9,3 +20,16 @@ Getting Started
 - Add your public SSH key to your GitHub account (generate new keys if necessary).
 - Create a new repo for this training.
 - Do a little research and decide where you want to write Python. I use Sublime Text (Python aware text editor). You could also use an IDE (PyCharm is very common). 
+
+
+Prep for session 1
+------------------
+
+
+
+
+
+
+Session 1
+---------
+Live Session - Feb 16 (11a ET)
