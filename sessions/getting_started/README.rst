@@ -43,3 +43,12 @@ Execute script **ex_01.py**
 ----------------------------
 - cd session/getting_started
 - python ex_01.py
+
+
+Review example from Ken
+-----------------------
+- cd session/getting_started
+- From shell: sed -e 's/launchpad/10.5.2.1/g' file-from-ken.json > new-file.json
+- delete new-file.json
+- Modify ex_02.py
+- python ex_02.py
