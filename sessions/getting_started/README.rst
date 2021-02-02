@@ -32,3 +32,14 @@ Sync with this repo via ssh
 - git init
 - git remote add origin git@github.com:addr2data/RESTfulAPIsPython.git
 - git pull origin master
+
+Execute script **sample.py**
+----------------------------
+cd session/getting_started
+python sample.py
+
+
+Execute script **ex_01.py**
+----------------------------
+cd session/getting_started
+python ex_01.py
