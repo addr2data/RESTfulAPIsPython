@@ -26,15 +26,6 @@ Step 4::
 
     $ python ex_01.py -h
 
+Step 5
 
-Ex_01(b)
---------
-- python ex_01.py
-
-Ex_01(c)
---------
-- python ex_01.py -h
-
-Ex_01(d)
---------
-- python ex_01.py --help
+Review the **docopt** components of **ex_01.py**.
