@@ -1,18 +1,16 @@
-"""ex_01.
+"""ex_02.
 
 Usage:
-    ex_01 get (endpts | user)  (-s | -j | -t | -r) [-pz]
+    ex_02 get (endpts | user) [-srjt]
 
 Arguments:
     get
 
 Options:
-    -s      Return status Code
-    -j      Return json data
-    -t      Return text
-    -r      Return headers
-    -p      Print pretty
-    -z      Print type
+    -s      Show response status code
+    -r      Show response headers
+    -j      Show response body(json)
+    -t      Show response body(text)
 """
 
 from docopt import docopt
@@ -21,27 +19,13 @@ import requests
 
 
 class GithubApi(object):
+    """The begining of an API wrapper."""
 
-    def __init__(self, url):
-        self.url = url
+    def __init__(self):
+        pass
 
-    def _get(self):
-        return requests.get(self.url)
-
-    def default(self):
-        return self._get()
-
-    def status(self):
-        return self._get().status_code
-
-    def json(self):
-        return self._get().json()
-
-    def text(self):
-        return self._get().text
-
-    def headers(self):
-        return self._get().headers
+    def get(self, url):
+        return requests.get(url)
 
 
 def main():
@@ -49,41 +33,47 @@ def main():
     args = docopt(__doc__)
 
     #Instantiate the class
-    api = GithubApi("https://api.github.com/")
+    api = GithubApi()
 
-    if args['get_endpts']:
+    if args['get'] and args['endpts']:
+        results = api.get("https://api.github.com/")
 
-        # Gets status code
+        # Show status code
         if args['-s']:
-            results = api.status()
+            print("\nResponse status code")
+            print("--------------------")
+            print(results.status_code)
 
-        # Gets headers
-        elif args['-r']:
-            # results = api.headers()
-            results = dict(api.headers())
+        # Show headers
+        if args['-r']:
+            print("\nResponse Headers")
+            print("----------------")
+            print(json.dumps(dict(results.headers), indent=4, sort_keys=False))
 
-        # Gets json
-        elif args['-j']:
-            results = api.json()
+        # Show response body(json)
+        if args['-j']:
+            print("\nResponse body(json)")
+            print("-------------------")
+            print(json.dumps(dict(results.json()), indent=4, sort_keys=False))
 
-        # Gets text
-        elif args['-t']:
-            # results = api.text()
-            results = json.loads(api.text())
+        # Show response body(text)
+        if args['-t']:
+            print("\nResponse body(text)")
+            print("-------------------")
+            print(results.text)
 
-        # Print pretty option
-        if args['-p']:
-            # prettyprinter.pprint(results)
-            print(json.dumps(results, indent=4, sort_keys=False))
-        else:
+        if not any([args['-s'], args['-r'], args['-j'], args['-t']]):
+            print("\nResponse")
+            print("--------")
             print(results)
 
-        # Print data type option
-        if args['-z']:
-            print(type(results))
-
-    elif args['show_args']:
-        get_user()
+    elif args['user']:
+        results = api.get("https://api.github.com/")
+        url = results.json()['user_url'].replace("{user}", "addr2data")
+        results = api.get(url)
+        print(results.status_code)
+        print(results.headers)
+        print(results.json())
 
 
 if __name__ == "__main__":

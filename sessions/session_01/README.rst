@@ -102,3 +102,26 @@ Attendee exercise (ex_01)
 ex_02
 -----
 
+Step 1::
+
+    $ python ex_02.py get endpts
+
+Step 2::
+
+    $ python ex_02.py get endpts -s
+
+Step 3::
+
+    $ python ex_02.py get endpts -r
+
+Step 4::
+
+    $ python ex_02.py get endpts -j
+
+Step 5::
+
+    $ python ex_02.py get endpts -t
+
+Step 5::
+
+    $ python ex_02.py get endpts -srjt
