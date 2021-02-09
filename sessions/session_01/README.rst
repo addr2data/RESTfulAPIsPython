@@ -32,7 +32,7 @@ Step 5::
 
 Step 6
 
-Review the **docopt** components in **ex_01.py**.
+- Review the **docopt** components in **ex_01.py**.
 
 Step 7::
 
@@ -75,15 +75,15 @@ Step 16::
 
     $ python ex_01.py host_details apisim-001 -n
 
-Step 17:
+Step 17::
 
     $ python ex_01.py host_details apisim-001 -m
 
-Step 18:
+Step 18::
 
     $ python ex_01.py host_details apisim-001 -inm
 
-Step 19:
+Step 19::
 
     $ python ex_01.py host_details all -inm
 
