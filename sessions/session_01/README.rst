@@ -5,6 +5,7 @@ Ex_01
 -----
 
 Step 1::
+
     cd sessions/session_01
     python
     >>> import ex_01
