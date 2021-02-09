@@ -1,14 +1,10 @@
 """ex_01.
 
 Usage:
-    ex_01 get_endpts (-s | -j | -t | -r) [-pz]
-    ex_01 get_user [-v]
-    ex_01 show_args
+    ex_01 get (endpts | user)  (-s | -j | -t | -r) [-pz]
 
 Arguments:
-    get_endpts
-    get_user
-    show_args
+    get
 
 Options:
     -s      Return status Code
@@ -21,8 +17,31 @@ Options:
 
 from docopt import docopt
 import simplejson as json
-import prettyprinter
-from ex_01_classes import GithubApi
+import requests
+
+
+class GithubApi(object):
+
+    def __init__(self, url):
+        self.url = url
+
+    def _get(self):
+        return requests.get(self.url)
+
+    def default(self):
+        return self._get()
+
+    def status(self):
+        return self._get().status_code
+
+    def json(self):
+        return self._get().json()
+
+    def text(self):
+        return self._get().text
+
+    def headers(self):
+        return self._get().headers
 
 
 def main():
@@ -32,11 +51,7 @@ def main():
     #Instantiate the class
     api = GithubApi("https://api.github.com/")
 
-    # Make decisions based on arguments and options
-    if args['show_args'] is True:  # This is not Pythonic
-        print(args)
-
-    elif args['get_endpts']:  # This is Pythonic
+    if args['get_endpts']:
 
         # Gets status code
         if args['-s']:

@@ -90,3 +90,15 @@ Step 19::
 Step 20
 
 - Review the **elif args['host_details']:** section of the **main** function in **ex_01.py**.
+
+
+Attendee exercise (ex_01)
+-------------------------
+
+- Add a command option for showing the **version** info from **ex_01.json**.
+
+
+
+ex_02
+-----
+
