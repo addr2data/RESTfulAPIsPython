@@ -91,6 +91,7 @@ Step 20
 
 - Review the **elif args['host_details']:** section of the **main** function in **ex_01.py**.
 
+***********
 
 Attendee exercise (ex_01)
 -------------------------
@@ -127,7 +128,7 @@ Step 5::
     $ python ex_02.py get endpts -srjt
 
 
-Attendee exercise (ex_01)
+Attendee exercise (ex_02)
 -------------------------
 
 - Add a code to **elif args['user']:** section to output **response headers** and **response body(json)** for your user account.
