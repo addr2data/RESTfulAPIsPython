@@ -95,7 +95,7 @@ Step 20
 Attendee exercise (ex_01)
 -------------------------
 
-- Add a command option for showing the **version** info from **ex_01.json**.
+- Add a command line option for showing the **version** info from **ex_01.json**.
 
 
 
@@ -125,3 +125,10 @@ Step 5::
 Step 5::
 
     $ python ex_02.py get endpts -srjt
+
+
+Attendee exercise (ex_01)
+-------------------------
+
+- Add a code to **elif args['user']:** section to output **response headers** and **response body(json)** for your user account.
+- Use **user_url** from the **response body(json)** from the endpts command line.

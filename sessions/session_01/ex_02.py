@@ -28,6 +28,15 @@ class GithubApi(object):
         return requests.get(url)
 
 
+def print_helper(title, data, pretty=False):
+    print(f"\n{title}")
+    print("-".rjust(len(title), "-"))
+    if pretty:
+        print(json.dumps(data, indent=4, sort_keys=False))
+    else:
+        print(data)
+
+
 def main():
     """The excessive commenting in not Pythonic."""
     args = docopt(__doc__)
@@ -40,40 +49,25 @@ def main():
 
         # Show status code
         if args['-s']:
-            print("\nResponse status code")
-            print("--------------------")
-            print(results.status_code)
+            print_helper("Response status code", results.status_code)
 
         # Show headers
         if args['-r']:
-            print("\nResponse Headers")
-            print("----------------")
-            print(json.dumps(dict(results.headers), indent=4, sort_keys=False))
+            print_helper("Response headers", dict(results.headers), pretty=True)
 
         # Show response body(json)
         if args['-j']:
-            print("\nResponse body(json)")
-            print("-------------------")
-            print(json.dumps(dict(results.json()), indent=4, sort_keys=False))
+            print_helper("Response body(json)", results.json(), pretty=True)
 
         # Show response body(text)
         if args['-t']:
-            print("\nResponse body(text)")
-            print("-------------------")
-            print(results.text)
+            print_helper("Response body(text)", results.text)
 
         if not any([args['-s'], args['-r'], args['-j'], args['-t']]):
-            print("\nResponse")
-            print("--------")
-            print(results)
+            print_helper("Response ", results)
 
     elif args['user']:
-        results = api.get("https://api.github.com/")
-        url = results.json()['user_url'].replace("{user}", "addr2data")
-        results = api.get(url)
-        print(results.status_code)
-        print(results.headers)
-        print(results.json())
+        print("To be completed by attendees.")
 
 
 if __name__ == "__main__":
