@@ -1,7 +1,7 @@
 Session 01
 ==========
 
-Ex_01
+ex_01
 -----
 
 Step 1::
@@ -24,7 +24,7 @@ Step 3::
 
 Step 4::
 
-    $ python ex_01.py -h
+    $ python ex_01.py --help
 
 Step 5::
 
