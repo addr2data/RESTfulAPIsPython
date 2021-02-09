@@ -96,7 +96,7 @@ Step 20
 Attendee exercise (ex_01)
 -------------------------
 
-- Add a command line option for showing the **version** info from **ex_01.json**.
+- Add a command line option for showing the **version** information from **ex_01.json**.
 
 ****
 
@@ -132,5 +132,7 @@ Step 5::
 Attendee exercise (ex_02)
 -------------------------
 
-- Add a code to **elif args['user']:** section to output **response headers** and **response body(json)** for your user account.
-- Use **user_url** from the **response body(json)** from the endpts command line.
+- Add code to **elif args['user']:** section to output **response headers** and **response body(json)** for your user account.
+- Use the **user_url** url, which can be found in the **response body(json)** from the **endpts** argument.
+
+****
