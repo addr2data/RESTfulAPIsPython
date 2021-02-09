@@ -1,0 +1,45 @@
+{
+    "name": "ex_01",
+    "version": 1.0,
+    "hostList": [
+        "apisim-001",
+        "apisim-002",
+        "apisim-003",
+        "apisim-004",
+        "apisim-005",
+        "apisim-006"
+    ],
+    "hostDetails": {
+        "apisim-001": {
+            "ipAddress": "102.168.1.21",
+            "nic": "eth01",
+            "mac": "00:0c:29:6e:8b:72"
+        },
+        "apisim-002": {
+            "ipAddress": "102.168.1.22",
+            "nic": "eth01",
+            "mac": "00:0c:29:6f:8c:37"
+        },
+        "apisim-003": {
+            "ipAddress": "102.168.1.23",
+            "nic": "eth01",
+            "mac": "00:0c:29:5f:7b:31"
+        },
+        "apisim-004": {
+            "ipAddress": "102.168.1.24",
+            "nic": "eth01",
+            "mac": "00:0c:29:6f:ba:55"
+        },
+        "apisim-005": {
+            "ipAddress": "102.168.1.25",
+            "nic": "eth01",
+            "mac": "00:0c:29:4a:37:ef"
+        },
+        "apisim-006": {
+            "ipAddress": "102.168.1.26",
+            "nic": "eth01",
+            "mac": "00:0c:29:4a:21:9a"
+        }
+    }
+
+}

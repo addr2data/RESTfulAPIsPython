@@ -19,7 +19,7 @@ Sync with your repo via ssh
 - mdkir <your-repo-name>
 - cd <your-repo-name>
 - git init
-- git remote add origin <path-to-repo>
+- git remote add origin <ssh-path-to-repo>
 - git status
 - git add *
 - git status
@@ -29,8 +29,6 @@ Sync with your repo via ssh
 
 Sync with this repo via ssh (or https)
 --------------------------------------
-- git clone git@github.com:addr2data/RESTfulAPIsPython.git
-- **or if ssh fails**
 - git clone https://github.com/addr2data/RESTfulAPIsPython.git
 - git pull origin master (to get updates)
 
