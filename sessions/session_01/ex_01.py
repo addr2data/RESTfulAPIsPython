@@ -29,7 +29,7 @@ import simplejson as json
 def print_data(data, pretty=False, object_type=False):
     """ Default arguments.
     
-    Here two of our arguments have defaults, therefore
+    Here we have two arguments that have defaults, therefore
     they are optional.
     """
     # Print pretty
@@ -67,10 +67,10 @@ def main():
         if args['--args']:
             print_data(args)
         elif args['--keys']:
-            print_data(load_json().keys())
+            print_data(load_json().keys())  # Using the dict keys method to get a list of keys
 
     elif args['hosts']:
-        json_data = load_json()['hostList']
+        json_data = load_json()['hostList']  # Assigning only a portion of json data
 
         # Positional arguments vs. keyword arguments (#1)
         print_data(json_data, args['-p'], args['-t'])
@@ -83,7 +83,6 @@ def main():
 
         # Positional arguments vs. keyword arguments (#4)
         # print_data(object_type=args['-t'], pretty=args['-p'], data=json_data['hostList'])
-    	
 
     elif args['host_details']:
         if args['<host_name>'] == "all":
@@ -93,8 +92,7 @@ def main():
             json_data[args['<host_name>']] = load_json()['hostDetails'][args['<host_name>']]
 
         output = []
-        for key, val in json_data.items():
-
+        for key, val in json_data.items(): # Using the dict items method to get key and value
             host_info = []
             host_info.append(f"host={key}")
             if args['-i']:
@@ -103,7 +101,7 @@ def main():
                 host_info.append(f"nic={val['nic']}")
             if args['-m']:
                 host_info.append(f"mac={val['mac']}")
-            output.append(", ".join(host_info))
+            output.append(", ".join(host_info))  # Using string join method with a list
 
         print_data(output, True)
 

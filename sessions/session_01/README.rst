@@ -26,6 +26,39 @@ Step 4::
 
     $ python ex_01.py -h
 
-Step 5
+Step 5::
 
-Review the **docopt** components of **ex_01.py**.
+    $ python ex_01.py show --args
+
+Step 6
+
+Review the **docopt** components in **ex_01.py**.
+
+Step 7::
+
+    $ python ex_01.py show --keys
+
+Step 8
+
+Review the **load_json** and **print_data** functions in **ex_01.py**.
+
+Step 9::
+
+    $ python ex_01.py show hosts
+
+Step 10::
+
+    $ python ex_01.py show hosts -p
+
+Step 11::
+
+    $ python ex_01.py show hosts -t
+
+Step 12::
+
+    $ python ex_01.py show hosts -pt
+
+Step 13
+
+Review the **elif args['hosts']:** section of the **main** function in **ex_01.py**.
+
