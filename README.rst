@@ -19,6 +19,10 @@ Sessions
 
 Session_01
 ----------
+- Prerequisites
+	+ Attended **Getting Started** or watched recording
+	+ Python and associated components installed
+
 - Description
     + Working with the **docopt** module in Python
     + Working with the **simplejson** module and json data in Python
@@ -34,6 +38,12 @@ Session_01
 
 Session_02
 ----------
+- Prerequisites
+	+ Attended **Session 01** or watched recording
+	+ Completed **Exercise_01**
+	+ Completed **Exercise_02**
+	+ Completed **Exercise_03**
+
 - Description
     + To be added
 
