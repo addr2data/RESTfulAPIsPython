@@ -141,7 +141,7 @@ Exercise (ex_02)
 ----------------
 
 - Add code to the **elif args['user']:** section to output **response headers** and **response body(json)** for your user account.
-- Use the **user_url** url, which can be found in the **response body(json)** from the **endpts** argument.
+    + Use the **user_url** url, which can be found in the **response body(json)** from the **endpts** argument.
 
 ****
 
