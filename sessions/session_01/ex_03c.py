@@ -14,7 +14,7 @@ Options:
 import sys
 from docopt import docopt
 import simplejson as json
-from vxrail_interface_3b import VxrailInterface
+from vxrail_interface_3c import VxrailInterface, VxrailError
 
 
 def print_helper(title, data, pretty=False):
@@ -31,14 +31,24 @@ def main():
     args = docopt(__doc__)
 
     #Instantiate the class
+
+    # Step 15
     api = VxrailInterface(address="127.0.0.1", port=8443, username="test", password="test")
+
+    # Step 17
+    # api = VxrailInterface(address="127.0.0.1", port=8443, username="test", password="badpassword")
 
     if args['collect']:
 
-        # Using broad exceptions like this is not considered good practice
+        # Make the API call
         try:
+            # Step 19a
             results = api.get("v1/system")
-        except Exception as err: 
+
+            # Step 19b
+            # results = api.get("v1/system1234")
+
+        except VxrailError as err: 
             sys.exit(err)
 
         # Show response body(json)

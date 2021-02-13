@@ -229,3 +229,56 @@ Step 7
 - Review the results
 - Comment **Step 4** in **vrail_interface_3a.py**
 - Uncomment **Step 8** in **vrail_interface_3a.py**
+
+Step 8::
+
+    $ python ex_03a.py collect
+
+Step 9::
+
+    $ python ex_03a.py collect -t
+
+Step 10
+
+- Review **ex_03b.py**
+- Review **vxrail_interface_3b.py**
+
+Step 11::
+
+    $ python ex_03b.py collect
+
+Step 12
+
+- Review the results
+- Comment **Step 11** in **vrail_interface_3b.py**
+- Uncomment **Step 13** in **vrail_interface_3b.py**
+
+Step 13::
+
+    $ python ex_03b.py collect
+
+Step 14
+
+- Review **ex_03c.py**
+- Review **vxrail_interface_3c.py**
+
+Step 15::
+
+    $ python ex_03c.py collect
+
+Step 16
+
+- Comment **Step 15** in **vrail_interface_3c.py**
+- Uncomment **Step 17** in **vrail_interface_3c.py**
+
+Step 17::
+
+    $ python ex_03c.py collect
+
+Step 18
+
+- Review the results
+- Comment **Step 17** in **vrail_interface_3c.py**
+- Uncomment **Step 15** in **vrail_interface_3c.py**
+- comment **Step 19a** in **vrail_interface_3c.py**
+- Uncomment **Step 19b** in **vrail_interface_3c.py**
