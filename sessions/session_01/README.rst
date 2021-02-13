@@ -30,64 +30,72 @@ Step 5::
 
     $ python ex_01.py show --args
 
-Step 6
+Step 6::
+
+    $ python ex_01.py show --args -t
+
+Step 7
 
 - Review the **docopt** components in **ex_01.py**.
 
-Step 7::
+Step 8::
 
     $ python ex_01.py show --keys
 
-Step 8
+Step 9::
+
+    $ python ex_01.py show --keys -t
+
+Step 10
 
 - Review the contents of **ex_01.json**
 - Review the **load_json** and **print_data** functions in **ex_01.py**.
 
-Step 9::
+Step 11::
 
     $ python ex_01.py hosts
 
-Step 10::
+Step 12::
 
     $ python ex_01.py hosts -p
 
-Step 11::
+Step 13::
 
     $ python ex_01.py hosts -t
 
-Step 12::
+Step 14::
 
     $ python ex_01.py hosts -pt
 
-Step 13
+Step 15
 
 - Review the **elif args['hosts']:** section of the **main** function in **ex_01.py**.
 
-Step 14::
+Step 16::
 
     $ python ex_01.py host_details apisim-001
 
-Step 15::
+Step 17::
 
     $ python ex_01.py host_details apisim-001 -i
 
-Step 16::
+Step 18::
 
     $ python ex_01.py host_details apisim-001 -n
 
-Step 17::
+Step 19::
 
     $ python ex_01.py host_details apisim-001 -m
 
-Step 18::
+Step 20::
 
     $ python ex_01.py host_details apisim-001 -inm
 
-Step 19::
+Step 21::
 
     $ python ex_01.py host_details all -inm
 
-Step 20
+Step 22
 
 - Review the **elif args['host_details']:** section of the **main** function in **ex_01.py**.
 

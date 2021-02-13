@@ -1,7 +1,7 @@
 """ex_01.
 
 Usage:
-    ex_01 show (--args | --keys)
+    ex_01 show (--args | --keys) [-t]
     ex_01 hosts [-pt]
     ex_01 host_details <host_name> [-inm]
 
@@ -65,9 +65,9 @@ def main():
     # Here we make decisions based on arguments and options
     if args['show']:
         if args['--args']:
-            print_data(args)
+            print_data(args, object_type=args['-t'])
         elif args['--keys']:
-            print_data(load_json().keys())  # Using the dict keys method to get a list of keys
+            print_data(load_json().keys(), object_type=args['-t'])  # Using the dict keys() method to get a list of keys
 
     elif args['hosts']:
         json_data = load_json()['hostList']  # Assigning only a portion of json data
