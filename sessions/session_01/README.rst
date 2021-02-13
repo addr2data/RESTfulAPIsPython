@@ -113,32 +113,74 @@ Example (ex_02)
 
 Step 1::
 
-    $ python ex_02.py get endpts
+    $ python ex_02.py endpts
 
 Step 2::
 
-    $ python ex_02.py get endpts -s
+    $ python ex_02.py endpts --type
 
 Step 3::
 
-    $ python ex_02.py get endpts -r
+    $ python ex_02.py endpts -s
 
 Step 4::
 
-    $ python ex_02.py get endpts -j
+    $ python ex_02.py endpts -s --type
 
 Step 5::
 
-    $ python ex_02.py get endpts -t
+    $ python ex_02.py endpts -r
 
-Step 5::
+Step 6
 
-    $ python ex_02.py get endpts -srjt
+- Review the four **X-RateLimit** header fields 
+    + See **Exercise_002**, regarding **X-RateLimit-Reset**
+
+
+Step 7::
+
+    $ python ex_02.py endpts -j
+
+Step 8::
+
+    $ python ex_02.py endpts -t
+
+Step 9::
+
+    $ python ex_02.py endpts -t --type
+
+Step 10
+
+- Remove the block comments and review the code in **print_helper**.
+
+Step 11::
+
+    $ python ex_02.py endpts -t
+
+Step 12
+
+- Review the results from **Step 11**
+- Swap the single line comment on the print statements
+
+Step 13::
+
+    $ python ex_02.py endpts -t
+
+Step 14
+
+- Review the results from **Step 13**
+- Restore the original comments
+
+Step 15::
+
+    $ python ex_02.py endpts -srjt
 
 ****
 
 Exercise (ex_02)
 ----------------
+
+- Using the **datetime** module, determine how the how long the **X-RateLimit-Reset** timer is.
 
 - Add code to the **elif args['user']:** section to output **response headers** and **response body(json)** for your user account.
     + Use the **user_url** url, which can be found in the **response body(json)** from the **endpts** argument.
@@ -147,4 +189,43 @@ Exercise (ex_02)
 
 Example (ex_03)
 ---------------
+Initial
 
+- Start **vxrail-mock-api**
+
+Step 1
+
+- Review **ex_03a.py**
+- Review **vxrail_interface_3a.py**
+
+
+Step 2::
+
+    $ python ex_03a.py collect
+
+
+Step 3
+
+- Review the exceptions that occurred.
+- Comment **Step 2** in **vrail_interface_3a.py**
+- Uncomment **Step 4** in **vrail_interface_3a.py**
+
+Step 4::
+
+    $ python ex_03a.py collect
+
+
+Step 5
+
+- Review the warning that occurred.
+- Uncomment **Step 6** in **vrail_interface_3a.py**
+
+Step 6::
+
+    $ python ex_03a.py collect
+
+Step 7
+
+- Review the results
+- Comment **Step 4** in **vrail_interface_3a.py**
+- Uncomment **Step 8** in **vrail_interface_3a.py**

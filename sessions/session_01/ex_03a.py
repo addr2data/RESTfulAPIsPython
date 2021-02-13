@@ -11,10 +11,9 @@ Options:
 
 """
 
-import sys
 from docopt import docopt
 import simplejson as json
-from vxrail_interface import VxrailInterface, VxrailError
+from vxrail_interface_3a import VxrailInterface
 
 
 def print_helper(title, data, pretty=False):
@@ -31,18 +30,15 @@ def main():
     args = docopt(__doc__)
 
     #Instantiate the class
-    api = VxrailInterface("127.0.0.1", "test", "test")
+    api = VxrailInterface(address="127.0.0.1", port=8443, username="test", password="test")
 
     if args['collect']:
-        try:
-            results = api.get("v1/system")
-        except VxrailError as err:
-            sys.exit(err)
+
+        # Make the API call
+        results = api.get("v1/system")
 
         # Show response body(json)
-        if args['-j']:
-            print_helper("Response body(json)", results, pretty=True)
-
+        print_helper("Response body(json)", results, pretty=args['-j'])
 
 
 if __name__ == "__main__":
