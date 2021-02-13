@@ -30,3 +30,15 @@ Session_01
 	+ Support session:  **Wed, Feb 17, 8a ET**
 	+ Support session:  **Wed, Feb 17, 8p ET**
 	+ Support session:  **Thu, Feb 18, 11a ET**
+
+
+Session_02
+----------
+- Description
+    + To be added
+
+- Dates
+	+ Live session:     **Tue, Mar 2, 9:30a ET** *(It will be recorded)*
+	+ Support session:  **Wed, Mar 3, 8a ET**
+	+ Support session:  **Wed, Mar 3, 8p ET**
+	+ Support session:  **Fri, Mar 5, 11a ET**

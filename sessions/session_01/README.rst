@@ -1,8 +1,8 @@
 Session 01
 ==========
 
-ex_01
------
+Example (ex_01)
+---------------
 
 Step 1::
 
@@ -93,15 +93,15 @@ Step 20
 
 ****
 
-Attendee exercise (ex_01)
--------------------------
+Exercise (ex_01)
+----------------
 
 - Add a command line option for showing the **version** information from **ex_01.json**.
 
 ****
 
-ex_02
------
+Example (ex_02)
+---------------
 
 Step 1::
 
@@ -129,10 +129,14 @@ Step 5::
 
 ****
 
-Attendee exercise (ex_02)
--------------------------
+Exercise (ex_02)
+----------------
 
-- Add code to **elif args['user']:** section to output **response headers** and **response body(json)** for your user account.
+- Add code to the **elif args['user']:** section to output **response headers** and **response body(json)** for your user account.
 - Use the **user_url** url, which can be found in the **response body(json)** from the **endpts** argument.
 
 ****
+
+Example (ex_03)
+---------------
+

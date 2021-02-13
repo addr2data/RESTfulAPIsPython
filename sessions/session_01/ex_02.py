@@ -1,10 +1,11 @@
 """ex_02.
 
 Usage:
-    ex_02 get (endpts | user) [-srjt]
+    ex_02 (endpts | user) [-srjt]
 
 Arguments:
-    get
+    endpts
+    user
 
 Options:
     -s      Show response status code
@@ -44,7 +45,7 @@ def main():
     #Instantiate the class
     api = GithubApi()
 
-    if args['get'] and args['endpts']:
+    if args['endpts']:
         results = api.get("https://api.github.com/")
 
         # Show status code
@@ -63,6 +64,7 @@ def main():
         if args['-t']:
             print_helper("Response body(text)", results.text)
 
+        # Show response
         if not any([args['-s'], args['-r'], args['-j'], args['-t']]):
             print_helper("Response ", results)
 
