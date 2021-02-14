@@ -307,3 +307,56 @@ Attendee Activity (requests, basic auth and exception handling)
 ****
 
 ****
+
+HTTP Methods (as defined in RFC 7231)
+-------------------------------------
+
+**GET**
+
+- Transfer a current representation of the target resource.
+
+**POST**
+
+- Perform resource-specific processing on the request payload
+
+**PUT**
+
+- Replace all current representations of the target resource with the request payload
+
+**DELETE**
+
+- Remove all current representations of the target resource.
+
+****
+
+****
+
+HTTP Status Codes
+-----------------
+
+- Informational responses (100–199)
+- Successful responses (200–299)
+- Redirects (300–399)
+- Client errors (400–499)
+- Server errors (500–599)
+
+
+Common HTTP Status Codes (we might see during these sessions) 
+-------------------------------------------------------------
+
+- 200 **OK**
+- 201 **Created**
+- 202 **Accepted**
+- 204 **No Content**
+- 400 **Bad Request**
+- 401 **Unauthorized** (in reality means **Unauthenticated**)
+- 403 **Forbidden** (in reality means **Unauthorized**)
+- 404 **Not Found**
+- 405 **Method Not Allowed**
+- 500 **Internal Server Error**
+
+
+EC2 Idempotency
+---------------
+
+https://docs.aws.amazon.com/AWSEC2/latest/APIReference/Run_Instance_Idempotency.html
