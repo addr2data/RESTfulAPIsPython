@@ -342,8 +342,11 @@ PATCH Method (as defined in RFC 5789)
 
 ****
 
-HTTP Status Code Ranges
------------------------
+HTTP Status Codes
+-----------------
+
+Ranges
+~~~~~~
 
 - Informational responses (100–199)
 - Successful responses (200–299)
@@ -351,8 +354,21 @@ HTTP Status Code Ranges
 - Client errors (400–499)
 - Server errors (500–599)
 
-****
+
+Common (we might see during these sessions) 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- 200 **OK**
+- 201 **Created**
+- 202 **Accepted**
+- 204 **No Content**
+- 400 **Bad Request**
+- 401 **Unauthorized** (in reality means **Unauthenticated**)
+- 403 **Forbidden** (in reality means **Unauthorized**)
+- 404 **Not Found**
+- 405 **Method Not Allowed**
+- 500 **Internal Server Error**
 
 ****
 
-
+****
