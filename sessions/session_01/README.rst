@@ -331,3 +331,14 @@ Common HTTP Methods (as defined in RFC 7231)
 
 ****
 
+PATCH Method (as defined in RFC 5789)
+-------------------------------------
+
+**PATCH**
+
+-  Requests that a set of changes, described in the request entity, be applied to the resource identified
+
+****
+
+****
+
