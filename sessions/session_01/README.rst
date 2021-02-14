@@ -283,6 +283,6 @@ Step 18
 - comment **Step 19a** in **vrail_interface_3c.py**
 - Uncomment **Step 19b** in **vrail_interface_3c.py**
 
-Step 17::
+Step 19::
 
     $ python ex_03c.py collect
