@@ -1,8 +1,8 @@
 Session 01
 ==========
 
-Example (ex_01)
----------------
+Exercise 01 (Intro to docopt)
+-----------------------------
 
 Step 1::
 
@@ -101,15 +101,15 @@ Step 22
 
 ****
 
-Exercise (ex_01)
-----------------
+Attendee Activity (Intro to docopt)
+-----------------------------------
 
 - Add a command line option for showing the **version** information from **ex_01.json**.
 
 ****
 
-Example (ex_02)
----------------
+Exercise 02 (Intro to requests)
+-------------------------------
 
 Step 1::
 
@@ -177,8 +177,8 @@ Step 15::
 
 ****
 
-Exercise (ex_02)
-----------------
+Attendee Activity (Intro to requests)
+-------------------------------------
 
 - Using the **datetime** module, determine how the how long the **X-RateLimit-Reset** timer is.
 
@@ -187,8 +187,8 @@ Exercise (ex_02)
 
 ****
 
-Example (ex_03)
----------------
+Exercise 03 (requests, basic auth and exception handling)
+---------------------------------------------------------
 Initial
 
 - Start **vxrail-mock-api**
@@ -286,3 +286,10 @@ Step 18
 Step 19::
 
     $ python ex_03c.py collect
+
+****
+
+Attendee Activity (requests, basic auth and exception handling)
+---------------------------------------------------------------
+
+- to be added
