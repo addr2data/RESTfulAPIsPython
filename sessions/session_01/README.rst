@@ -308,8 +308,8 @@ Attendee Activity (requests, basic auth and exception handling)
 
 ****
 
-HTTP Methods (as defined in RFC 7231)
--------------------------------------
+Common HTTP Methods (as defined in RFC 7231)
+--------------------------------------------
 
 **GET**
 
@@ -330,9 +330,19 @@ HTTP Methods (as defined in RFC 7231)
 ****
 
 ****
+PATCH Method (as defined in RFC 5789)
+-------------------------------------
 
-HTTP Status Codes
------------------
+**PATCH**
+
+-  Requests that a set of changes, described in the request entity, be applied to the resource identified.
+
+****
+
+****
+
+HTTP Status Code Ranges
+-----------------------
 
 - Informational responses (100–199)
 - Successful responses (200–299)
@@ -356,7 +366,17 @@ Common HTTP Status Codes (we might see during these sessions)
 - 500 **Internal Server Error**
 
 
-EC2 Idempotency
----------------
+Idempotent
+-----------
+
+For a RESTful API call to be Idempotent, the client must be able to make the same call multiple times with the *server-side* result.
+The results on the *client-side* may differ.
+
+
+- PUT, PATCH and  DELETE are defined to be idempotent.
+- DELETE can be a little funky, because if a previous request was successful, then on subsequent requests the resource may not be found and a 404 returned  
+
+Forcing Idempotency (EC2)
+-------------------------
 
 https://docs.aws.amazon.com/AWSEC2/latest/APIReference/Run_Instance_Idempotency.html
