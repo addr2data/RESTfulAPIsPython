@@ -35,7 +35,7 @@ def main():
 
     if args['collect']:
 
-        # Using broad exceptions like this is not considered good practice
+        # Using broad exceptions like this is not Pythonic
         try:
             results = api.get("v1/system")
         except Exception as err: 
