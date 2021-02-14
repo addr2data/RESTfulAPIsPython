@@ -177,6 +177,8 @@ Step 15::
 
 ****
 
+****
+
 Attendee Activity (Intro to requests)
 -------------------------------------
 
