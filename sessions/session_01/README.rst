@@ -372,3 +372,11 @@ Common (we might see during these sessions)
 ****
 
 ****
+
+Idempotent
+----------
+
+| For a RESTful API call to be Idempotent, the client must be able to make the same call multiple times with the *server-side* result.
+| The results on the *client-side* may differ.
+
+
