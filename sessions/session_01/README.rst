@@ -101,10 +101,14 @@ Step 22
 
 ****
 
+****
+
 Attendee Activity (Intro to docopt)
 -----------------------------------
 
 - Add a command line option for showing the **version** information from **ex_01.json**.
+
+****
 
 ****
 
@@ -186,6 +190,8 @@ Attendee Activity (Intro to requests)
 
 - Add code to the **elif args['user']:** section to output **response headers** and **response body(json)** for your user account.
     + Use the **user_url** url, which can be found in the **response body(json)** from the **endpts** argument.
+
+****
 
 ****
 
@@ -291,7 +297,13 @@ Step 19::
 
 ****
 
+****
+
 Attendee Activity (requests, basic auth and exception handling)
 ---------------------------------------------------------------
 
 - to be added
+
+****
+
+****
