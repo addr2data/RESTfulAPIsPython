@@ -189,7 +189,7 @@ Attendee Activity (Intro to requests)
 - Using the **datetime** module, determine how the how long the **X-RateLimit-Reset** timer is.
 
 - Add code to the **elif args['user']:** section to output **response headers** and **response body(json)** for your user account.
-    + Use the **user_url** url, which can be found in the **response body(json)** from the **endpts** argument.
+    + Use **user_url**, which can be found in the **response body(json)** from the **endpts** argument.
 
 ****
 
@@ -209,7 +209,7 @@ Step 1
 
 Step 2::
 
-    $ python ex_03a.py collect
+    $ python ex_03a.py system
 
 
 Step 3
@@ -220,7 +220,7 @@ Step 3
 
 Step 4::
 
-    $ python ex_03a.py collect
+    $ python ex_03a.py system
 
 
 Step 5
@@ -230,7 +230,7 @@ Step 5
 
 Step 6::
 
-    $ python ex_03a.py collect
+    $ python ex_03a.py system
 
 Step 7
 
@@ -240,11 +240,11 @@ Step 7
 
 Step 8::
 
-    $ python ex_03a.py collect
+    $ python ex_03a.py system
 
 Step 9::
 
-    $ python ex_03a.py collect -t
+    $ python ex_03a.py system -t
 
 Step 10
 
@@ -253,7 +253,7 @@ Step 10
 
 Step 11::
 
-    $ python ex_03b.py collect
+    $ python ex_03b.py system
 
 Step 12
 
@@ -263,7 +263,7 @@ Step 12
 
 Step 13::
 
-    $ python ex_03b.py collect
+    $ python ex_03b.py system
 
 Step 14
 
@@ -272,7 +272,7 @@ Step 14
 
 Step 15::
 
-    $ python ex_03c.py collect
+    $ python ex_03c.py disks
 
 Step 16
 
@@ -281,7 +281,7 @@ Step 16
 
 Step 17::
 
-    $ python ex_03c.py collect
+    $ python ex_03c.py disks
 
 Step 18
 
@@ -293,7 +293,7 @@ Step 18
 
 Step 19::
 
-    $ python ex_03c.py collect
+    $ python ex_03c.py disks
 
 ****
 
@@ -302,7 +302,7 @@ Step 19::
 Attendee Activity (requests, basic auth and exception handling)
 ---------------------------------------------------------------
 
-- to be added
+- Add code to the **elif args['each_disk']:** section to output the **response body(json)** for each disk.
 
 ****
 

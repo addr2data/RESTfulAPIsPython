@@ -1,10 +1,10 @@
 """ex_03.
 
 Usage:
-    ex_03 collect [-j]
+    ex_03 system [-j]
 
 Arguments:
-    collect
+    system
 
 Options:
     -j      Show response body(json)
@@ -33,7 +33,7 @@ def main():
     #Instantiate the class
     api = VxrailInterface(address="127.0.0.1", port=8443, username="test", password="test")
 
-    if args['collect']:
+    if args['system']:
 
         # Using broad exceptions like this is not Pythonic
         try:
