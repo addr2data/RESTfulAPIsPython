@@ -307,3 +307,27 @@ Attendee Activity (requests, basic auth and exception handling)
 ****
 
 ****
+
+Common HTTP Methods (as defined in RFC 7231)
+--------------------------------------------
+
+**GET**
+
+- Transfer a current representation of the target resource
+
+**POST**
+
+- Perform resource-specific processing on the request payload
+
+**PUT**
+
+- Replace all current representations of the target resource with the request payload
+
+**DELETE**
+
+- Remove all current representations of the target resource
+
+****
+
+****
+
