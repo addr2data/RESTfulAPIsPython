@@ -336,6 +336,14 @@ Common HTTP Methods (as defined in RFC 7231)
 **POST**
 
 - Perform resource-specific processing on the request payload
+    
+    + Providing a block of data, such as the fields entered into an HTML form, to a data-handling process.
+
+    + Posting a message to a bulletin board, newsgroup, mailing list, blog, or similar group of articles.
+
+    + Creating a new resource that has yet to be identified by the origin server.
+
+    + Appending data to a resource's existing representation(s).
 
 **PUT**
 
@@ -394,7 +402,7 @@ Common (we might see during these sessions)
 Idempotent
 ----------
 
-| For a RESTful API call to be Idempotent, the client must be able to make the same call multiple times with the *server-side* result.
+| For a RESTful API call to be Idempotent, the client must be able to make the same request n-number of times with the same *server-side* results.
 | The results on the *client-side* may differ.
 
 Notes
