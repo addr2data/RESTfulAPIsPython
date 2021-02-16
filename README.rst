@@ -43,9 +43,9 @@ Session_02
 ----------
 - Prerequisites
 	+ Attended **Session 01** or watched recording
-	+ Completed **Exercise_01**
-	+ Completed **Exercise_02**
-	+ Completed **Exercise_03**
+	+ Completed **Attendee Activity (Intro to docopt)**
+	+ Completed **Attendee Activity (Intro to requests)**
+	+ Completed **Attendee Activity (requests, basicAuth and exception handling)**
 
 - Description
     + Complete **VxrailInterface**

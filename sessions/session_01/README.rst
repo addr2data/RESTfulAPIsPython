@@ -317,7 +317,7 @@ Step 19::
 
 ****
 
-Attendee Activity (requests, basic auth and exception handling)
+Attendee Activity (requests, basicAuth and exception handling)
 ---------------------------------------------------------------
 
 - Add code to the **elif args['each_disk']:** section to output the **response body(json)** for each disk.
