@@ -70,6 +70,8 @@ Step 14::
 Step 15
 
 - Review the **elif args['hosts']:** section of the **main** function in **ex_01.py**.
+- Uncomment/comment lines the *Positional arguments vs. keyword arguments* (#1-4).
+- Rerun the **python ex_01.py hosts** command as needed.
 
 Step 16::
 
