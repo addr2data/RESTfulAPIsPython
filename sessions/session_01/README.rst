@@ -49,6 +49,7 @@ Step 9::
 Step 10
 
 - Review the contents of **ex_01.json**
+
 - Review the **load_json** and **print_data** functions in **ex_01.py**.
 
 Step 11::
@@ -70,7 +71,9 @@ Step 14::
 Step 15
 
 - Review the **elif args['hosts']:** section of the **main** function in **ex_01.py**.
+
 - Uncomment/comment lines the *Positional arguments vs. keyword arguments* (#1-4).
+
 - Rerun the **python ex_01.py hosts** command as needed.
 
 Step 16::
@@ -187,6 +190,7 @@ Step 13::
 Step 14
 
 - Review the results from **Step 13**
+
 - Restore the original comments
 
 Step 15::
