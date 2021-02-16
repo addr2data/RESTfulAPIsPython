@@ -362,7 +362,9 @@ PATCH Method (as defined in RFC 5789)
 
 **PATCH**
 
--  Requests that a set of changes, described in the request entity, be applied to the resource identified
+-  Requests that a set of changes, described in the request entity, be applied to the resource identified.
+
+    + Sometimes defined as partial update.
 
 ****
 
@@ -408,7 +410,7 @@ Idempotent
 Notes
 ~~~~~
 
-- PUT, PATCH and  DELETE are defined to be idempotent.
+- PUT, DELETE and safe (read-only) mtehods are defined to be idempotent.
 - DELETE can be a little funky, because if a previous request was successful, then on subsequent requests the resource may not be found and a 404 returned.
 
 Forcing Idempotency (EC2)

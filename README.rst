@@ -48,7 +48,10 @@ Session_02
 	+ Completed **Exercise_03**
 
 - Description
-    + Complete VxRail Interface
+    + Complete **VxrailInterface**
+
+    	~ Do we want to use this interface to create an Ansible module.
+
     + Working with the **requests** module in Python(**tokenAuth**)
 
 - Dates
