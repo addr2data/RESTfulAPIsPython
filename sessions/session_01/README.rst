@@ -150,11 +150,11 @@ Step 6
 
 - Review the **Content-Encoding** header field
 
-    + Requests handles **gzip** and **deflate** automatically for you
+    Requests handles **gzip** and **deflate** automatically for you
 
 - Review the four **X-RateLimit** header fields
 
-    + See **Attendee Activity**, regarding **X-RateLimit-Reset**
+    See **Attendee Activity**, regarding **X-RateLimit-Reset**
 
 
 Step 7::
