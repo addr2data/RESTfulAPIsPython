@@ -50,7 +50,7 @@ Session_02
 - Description
     + Complete **VxrailInterface**
 
-    	~ Do we want to use this interface to create an Ansible module.
+    	Do we want to use this interface to create an Ansible module.
 
     + Working with the **requests** module in Python(**tokenAuth**)
 
