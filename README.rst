@@ -26,8 +26,7 @@ Session_01
 - Description
     + Working with the **docopt** module in Python
     + Working with the **simplejson** module and json data in Python
-    + Working with the **requests** module in Python
-    	~ Authentication (Basic)
+    + Working with the **requests** module in Python (**basicAuth**)
     + Review HTTP methods (GET, POST, PUT, PATCH, DELETE)
     + Review HTTP status codes
     + Discuss idempotency
@@ -50,8 +49,7 @@ Session_02
 
 - Description
     + Complete VxRail Interface
-    + Working with the **requests** module in Python
-    	~ Authentication (Token-based)
+    + Working with the **requests** module in Python(**tokenAuth**)
 
 - Dates
 	+ Live session:     **Tue, Mar 2, 9:30a ET** *(It will be recorded)*
