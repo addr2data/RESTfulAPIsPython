@@ -337,13 +337,13 @@ Common HTTP Methods (as defined in RFC 7231)
 
 - Perform resource-specific processing on the request payload
     
-    + Providing a block of data, such as the fields entered into an HTML form, to a data-handling process.
++ Providing a block of data, such as the fields entered into an HTML form, to a data-handling process.
 
-    + Posting a message to a bulletin board, newsgroup, mailing list, blog, or similar group of articles.
++ Posting a message to a bulletin board, newsgroup, mailing list, blog, or similar group of articles.
 
-    + Creating a new resource that has yet to be identified by the origin server.
++ Creating a new resource that has yet to be identified by the origin server.
 
-    + Appending data to a resource's existing representation(s).
++ Appending data to a resource's existing representation(s).
 
 **PUT**
 
