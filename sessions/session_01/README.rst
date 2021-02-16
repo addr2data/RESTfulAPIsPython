@@ -144,8 +144,10 @@ Step 5::
 Step 6
 
 - Review the **Content-Type** header field
+
 - Review the **Content-Encodin** header field
     + Requests handles **gzip** and **deflate** automatically for you
+
 - Review the four **X-RateLimit** header fields 
     + See **Attendee Activity**, regarding **X-RateLimit-Reset**
 
@@ -173,6 +175,7 @@ Step 11::
 Step 12
 
 - Review the results from **Step 11**
+
 - Swap the single line comment on the print statements
 
 Step 13::
