@@ -364,7 +364,7 @@ PATCH Method (as defined in RFC 5789)
 
 -  Requests that a set of changes, described in the request entity, be applied to the resource identified.
 
-    + Sometimes defined as partial update.
+    Sometimes defined as partial update.
 
 ****
 
