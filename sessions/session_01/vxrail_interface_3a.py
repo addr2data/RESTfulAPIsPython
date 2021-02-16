@@ -4,8 +4,8 @@ import requests
 import base64
 
 # Step 6
-# import urllib3
-# urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 
 class VxrailInterface(object):

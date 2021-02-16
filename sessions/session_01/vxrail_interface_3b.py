@@ -22,10 +22,10 @@ class VxrailInterface(object):
         
         try:
             # Step 11
-            response = requests.get(f"{self.base_path }/{url}", headers=self.headers)
+            # response = requests.get(f"{self.base_path }/{url}", headers=self.headers)
 
             # Step 13
-            # response = requests.get(f"{self.base_path }/{url}", headers=self.headers, verify=False)
+            response = requests.get(f"{self.base_path }/{url}", headers=self.headers, verify=False)
             return response.json()
         except requests.exceptions.RequestException:
             raise

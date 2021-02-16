@@ -76,13 +76,13 @@ def main():
         print_data(json_data, args['-p'], args['-t'])
 
     	# Positional arguments vs. keyword arguments (#2)
-    	# print_data(json_data['hostList'], object_type=args['-t'], pretty=args['-p'])
+        # print_data(json_data, object_type=args['-t'], pretty=args['-p'])
 
     	# Positional arguments vs. keyword arguments (#3)
-    	# print_data(object_type=args['-t'], pretty=args['-p'], json_data['hostList'])
+        # print_data(object_type=args['-t'], pretty=args['-p'], json_data)
 
         # Positional arguments vs. keyword arguments (#4)
-        # print_data(object_type=args['-t'], pretty=args['-p'], data=json_data['hostList'])
+        # print_data(object_type=args['-t'], pretty=args['-p'], data=json_data)
 
     elif args['host_details']:
         if args['<host_name>'] == "all":
