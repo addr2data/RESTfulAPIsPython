@@ -117,6 +117,10 @@ Attendee Activity (Intro to docopt)
 Exercise 02 (Intro to requests)
 -------------------------------
 
+Initial
+
+- Review the **ex_02.py** module.
+
 Step 1::
 
     $ python ex_02.py endpts
@@ -139,8 +143,11 @@ Step 5::
 
 Step 6
 
+- Review the **Content-Type** header field
+- Review the **Content-Encodin** header field
+    + Requests handles **gzip** and **deflate** automatically for you
 - Review the four **X-RateLimit** header fields 
-    + See **Exercise_002**, regarding **X-RateLimit-Reset**
+    + See **Attendee Activity**, regarding **X-RateLimit-Reset**
 
 
 Step 7::
